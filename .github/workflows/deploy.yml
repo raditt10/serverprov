@@ -60,7 +60,7 @@ jobs:
           echo "Commit: ${{ github.sha }}"
           echo "Branch: ${{ github.ref_name }}"
 
-  # ─── JOB 2: Test ─────────────────────────────────────────────
+  # ─── JOB 2: Testing ─────────────────────────────────────────────
   test:
     name: Test and Lint
     runs-on: ubuntu-latest
