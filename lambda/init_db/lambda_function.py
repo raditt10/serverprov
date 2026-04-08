@@ -15,7 +15,6 @@ logger.setLevel(logging.INFO)
 secrets_client = boto3.client('secretsmanager')
 _db_credentials = None
 
-
 def get_db_credentials():
     global _db_credentials
     if _db_credentials:
